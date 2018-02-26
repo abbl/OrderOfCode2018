@@ -39,7 +39,7 @@ public class Package {
                 lastCharacters = appendCharArray(lastCharacters, (char) content);
                 //Check if reader found header special character.
                 if(checkIfHeaderWasFound(lastCharacters) && !isReadingHeaderNow){
-                    System.out.println("Header has been found");
+                    //System.out.println("Header has been found");
                     isReadingHeaderNow = true;
                     if(fileBytes != null){
                         addPackageFileToCollection(fileName, comment, fileBytes);
@@ -167,10 +167,35 @@ public class Package {
     }
 
     public boolean doesSuchFileExistInPackage(String fileName){
+        if(findPackageFile(fileName) != null)
+            return true;
+        return false;
+    }
+
+    private PackageFile findPackageFile(String fileName){
         for(PackageFile packageFile : packageContent){
             if(packageFile.isFileNameEqual(fileName))
-                return true;
+                return packageFile;
         }
-        return false;
+        return null;
+    }
+
+    public boolean doesPackageHaveAnyHeadersInIt(){
+        return !packageContent.isEmpty();
+    }
+
+    public void printPackageContent(){
+        for(int a = 0; a < packageContent.size(); a++){
+            PackageFile packageFile = packageContent.get(a);
+            System.out.println((a + 1) + "." + packageFile.getFileDesc());
+        }
+    }
+
+    public void printCertainFileDesc(String fileName){
+        PackageFile packageFile = findPackageFile(fileName);
+        if(packageFile != null)
+            System.out.println(packageFile.getFileDesc());
+        else
+            System.out.println("Such file does not exist in this package");
     }
 }

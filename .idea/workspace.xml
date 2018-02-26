@@ -15,7 +15,7 @@
       <file leaf-file-name="Archiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rbc/Archiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="-598">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="PackageManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            <state relative-caret-position="-529">
+              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,19 +36,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PackageReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Package.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/Package.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="-3001">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4399#4400#0" expanded="true" />
-                <element signature="e#4445#4446#0" expanded="true" />
-                <element signature="e#5607#5608#0" expanded="true" />
-                <element signature="e#5654#5655#0" expanded="true" />
-                <element signature="e#6308#6309#0" expanded="true" />
-                <element signature="e#6389#6390#0" expanded="true" />
+                <element signature="e#4401#4402#0" expanded="true" />
+                <element signature="e#4447#4448#0" expanded="true" />
+                <element signature="e#5609#5610#0" expanded="true" />
+                <element signature="e#5656#5657#0" expanded="true" />
+                <element signature="e#6310#6311#0" expanded="true" />
+                <element signature="e#6391#6392#0" expanded="true" />
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6897#6898#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,19 +69,24 @@
       <file leaf-file-name="PackageFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1679">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2312#2313#0" expanded="true" />
-                <element signature="e#2339#2340#0" expanded="true" />
-                <element signature="e#2386#2387#0" expanded="true" />
-                <element signature="e#2456#2457#0" expanded="true" />
-                <element signature="e#2491#2492#0" expanded="true" />
-                <element signature="e#2550#2551#0" expanded="true" />
+                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
+                <element signature="e#2350#2351#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2486#2487#0" expanded="true" />
+                <element signature="e#2533#2534#0" expanded="true" />
+                <element signature="e#2566#2567#0" expanded="true" />
                 <element signature="e#2603#2604#0" expanded="true" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#2722#2723#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/com/rbc/archiver/Properties.java" />
         <option value="$PROJECT_DIR$/src/com/rbc/archiver/Logger.java" />
         <option value="$PROJECT_DIR$/src/com/rbc/Archiver.java" />
-        <option value="$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java" />
         <option value="$PROJECT_DIR$/src/com/rbc/archiver/Package.java" />
+        <option value="$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java" />
         <option value="$PROJECT_DIR$/src/com/rbc/archiver/PackageManager.java" />
       </list>
     </option>
@@ -135,8 +152,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,8 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +343,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14498934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -354,6 +371,68 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/rbc/Archiver.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4401#4402#0" expanded="true" />
+            <element signature="e#4447#4448#0" expanded="true" />
+            <element signature="e#5609#5610#0" expanded="true" />
+            <element signature="e#5656#5657#0" expanded="true" />
+            <element signature="e#6310#6311#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6897#6898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/Archiver.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
           <folding>
@@ -378,12 +457,14 @@
           <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4399#4400#0" expanded="true" />
-            <element signature="e#4445#4446#0" expanded="true" />
-            <element signature="e#5607#5608#0" expanded="true" />
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#6308#6309#0" expanded="true" />
-            <element signature="e#6389#6390#0" expanded="true" />
+            <element signature="e#4401#4402#0" expanded="true" />
+            <element signature="e#4447#4448#0" expanded="true" />
+            <element signature="e#5609#5610#0" expanded="true" />
+            <element signature="e#5656#5657#0" expanded="true" />
+            <element signature="e#6310#6311#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6897#6898#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,15 +475,20 @@
           <caret line="33" column="104" lean-forward="false" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
             <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -425,25 +511,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/Package.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4399#4400#0" expanded="true" />
-            <element signature="e#4445#4446#0" expanded="true" />
-            <element signature="e#5607#5608#0" expanded="true" />
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#6308#6309#0" expanded="true" />
-            <element signature="e#6389#6390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rbc/Archiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="-598">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -451,29 +521,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/Package.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3001">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
+            <element signature="e#4401#4402#0" expanded="true" />
+            <element signature="e#4447#4448#0" expanded="true" />
+            <element signature="e#5609#5610#0" expanded="true" />
+            <element signature="e#5656#5657#0" expanded="true" />
+            <element signature="e#6310#6311#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6897#6898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
             <element signature="e#2603#2604#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2722#2723#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rbc/archiver/PackageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="42" column="61" lean-forward="false" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        <state relative-caret-position="-529">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

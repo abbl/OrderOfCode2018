@@ -8,7 +8,6 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
 
 
 public class PackageFile {
@@ -74,8 +73,16 @@ public class PackageFile {
                 String.valueOf(HEADER_MARKINGS);
     }
 
+    public String getComment(){
+        return comment;
+    }
+
     public byte[] getFileBytes(){
         return file;
+    }
+
+    public String getFileDesc(){
+        return "FileName:" + fileName + " " + " Comment:" + comment;
     }
 
     public void setFileContent(byte[] bytes){
@@ -83,7 +90,7 @@ public class PackageFile {
     }
 
     public boolean doesFileExist(){
-        return file != null;
+        return Paths.get(fileName).toFile().exists();
     }
 
     public boolean isFileNameEqual(String otherFileName){
