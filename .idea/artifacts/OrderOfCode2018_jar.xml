@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OrderOfCode2018:jar">
+    <output-path>$PROJECT_DIR$/release</output-path>
+    <root id="archive" name="OrderOfCode2018.jar">
+      <element id="module-output" name="OrderOfCode2018" />
+    </root>
+  </artifact>
+</component>
