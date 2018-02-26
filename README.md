@@ -5,7 +5,7 @@ as you can guess we didn't make it in time so yeah this code in our final versio
 ##What does this do?
 Its sort of winrar or 7zip but more retarded, it just simply packs files into one.
 
-##Usage
+###Usage
 How do I start it? 
 >Since it has no GUI only way to start this abomination is through console/terminal
 
@@ -14,7 +14,7 @@ How do I do it?
 
 >java -jar OrderOfCode2018.jar
 
-##Commands
+####Commands
 they are listed at program startup but unfortunately they are half-english and half-polish because commission specs require them that way.
 
 Quick translation:
@@ -23,7 +23,7 @@ Quick translation:
 2. PLIK - FILE
 3. KOMENTARZ - COMMENT
 
-##Credits/Team
+#####Credits/Team
 * Jasiek Busz
 * Michał Chmura
 * Patryk Rzucidło
