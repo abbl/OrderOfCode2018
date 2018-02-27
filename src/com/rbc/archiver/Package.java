@@ -23,7 +23,12 @@ public class Package {
      */
     private void readPackageContentIntoArrayList(){
         try {
+            long start = System.currentTimeMillis();
+
             FileInputStream fileInputStream = new FileInputStream(packageName);
+            final InputStream in = new BufferedInputStream(fileInputStream);
+            final byte[] buf = new byte[1];
+
             boolean wasHeaderFound = false;
             boolean isReadingHeaderNow = false;
             byte[] fileBytes = null;
@@ -35,7 +40,8 @@ public class Package {
             String comment = "";
             String fileBytesSize = "";
 
-            while ((content = fileInputStream.read()) != -1){
+            while (in.read(buf) != -1){
+                content = buf[0];
                 lastCharacters = appendCharArray(lastCharacters, (char) content);
                 //Check if reader found header special character.
                 if(checkIfHeaderWasFound(lastCharacters) && !isReadingHeaderNow){
@@ -58,7 +64,6 @@ public class Package {
                     wasHeaderFound = true;
                     fileBytesSize = fileBytesSize.substring(0, fileBytesSize.length() - (PackageFile.HEADER_MARKINGS.length - 1));
                     fileBytes = new byte[Integer.parseInt(fileBytesSize)];
-                    continue;
                 }
                 if(isReadingHeaderNow && checkIfHeaderNextValueSymbolWasFound(content)){
                     headerIndex++;
@@ -77,12 +82,19 @@ public class Package {
                             break;
                     }
                 }else if(wasHeaderFound){
-                    if(fileBytesIndex < fileBytes.length){
-                        fileBytes[fileBytesIndex] = (byte) content;
-                        fileBytesIndex++;
+
+                    while ((fileBytesIndex < fileBytes.length) && (in.read(buf) != -1)){
+                        fileBytes[fileBytesIndex] = buf[0];
+                        fileBytesIndex += 1;
                     }
+                    wasHeaderFound = false;
                 }
             }
+            in.close();
+            fileInputStream.close();
+
+            System.out.println("Reading package content time: " + (System.currentTimeMillis() - start) + "ms");
+
             addPackageFileToCollection(fileName, comment, fileBytes);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
